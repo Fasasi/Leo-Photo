@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+.img-showcase .img1 a, .img-showcase .img2 a, .img-showcase .img3 a {
+  display: block;
+  background-color: rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+  z-index: 999999;
+  height: 95vh;
+  margin: 20px 20px;
+  color: #143d43;
+  font-size: 1.5rem;
+  padding-top: 15rem;
+  text-align: center; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Poppins", sans-serif; }
+
+.main-wrapper {
+  background-color: #fff;
+  width: 100%; }
+
+header {
+  display: flex;
+  justify-content: end;
+  position: fixed;
+  width: 100%;
+  background-color: RGBA(84, 84, 84, 1);
+  height: 13vh; }
+  header .mobile-nav {
+    display: none;
+    z-index: 99999999;
+    background-color: #fff;
+    height: 100vh;
+    width: 100%;
+    position: absolute; }
+    header .mobile-nav ul {
+      position: relative;
+      top: 5%;
+      left: 20; }
+    header .mobile-nav a {
+      text-decoration: none;
+      display: block; }
+    header .mobile-nav li {
+      list-style-type: none;
+      padding-top: 2.3rem;
+      text-align: center;
+      transition: all 1s ease;
+      border-bottom: 1px solid #c4c4c4; }
+    header .mobile-nav .cancel-icon {
+      background-image: url("../img/transparent-close-iconcancel-icon.jpg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      margin-left: 80%;
+      margin-top: 3rem;
+      height: 30px; }
+  header .header-wrapper {
+    display: flex;
+    justify-content: flex-end; }
+  header span {
+    background-color: RGBA(236, 236, 236, 1);
+    display: block;
+    margin-top: 0.4rem;
+    width: 1.7rem;
+    height: .4vh; }
+  header nav {
+    margin-right: 2rem;
+    padding-top: 1.5rem; }
+  header p {
+    color: RGBA(236, 236, 236, 1);
+    padding-right: 8rem;
+    font-size: 3rem;
+    padding-top: .2rem; }
+
+.carousel-wrapper {
+  background: url("../img/sleeping_black_baby-732x549-thumbnail.jpg") no-repeat;
+  background-attachment: fixed;
+  height: 70vh;
+  width: 100%; }
+
+.award .award-wrapper {
+  background-color: RGBA(236, 236, 236, 1);
+  height: 20vh; }
+
+.award p {
+  font-size: 1.3rem;
+  padding: 30px 70px;
+  line-height: 1.8; }
+
+.img-showcase .showcase-wrapper {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column; }
+  .img-showcase .showcase-wrapper div {
+    margin-top: 3rem;
+    margin-left: 0.7rem;
+    margin-right: 0.7rem; }
+
+.img-showcase .img1 {
+  background-image: url("../img/Alex-Claudia-BellaNaija-Weddings.50.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  transition: all 1s ease-in; }
+
+.img-showcase .img2 {
+  background-image: url("../img/father-22194__480.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  transition: all 1s ease-in; }
+
+.img-showcase .img3 {
+  background-image: url("../img/MtFuji-GettyImages-959111140.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  transition: all 1s ease-in-out; }
+
+.contact-us {
+  background-color: #fff; }
+  .contact-us .contact-us-wrapper {
+    padding: 5rem; }
+  .contact-us .social-media {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem; }
+  .contact-us img {
+    display: block;
+    width: 3rem;
+    border: 1px solid #000;
+    border-radius: 50%;
+    padding: 10px; }
+  .contact-us p {
+    text-align: center;
+    line-height: 2.5; }
+  .contact-us .company-name {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.6vh; }
+
+footer {
+  background-color: RGBA(236, 236, 236, 1);
+  height: 7vh; }
+  footer .footer-wrapper {
+    text-align: center;
+    padding-top: 10px; }
+
+@media only screen and (min-width: 680px) {
+  .carousel-wrapper {
+    background: url("../img/sleeping_black_baby-732x549-thumbnail.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%; }
+  header {
+    height: 15vh; }
+    header p {
+      color: RGBA(236, 236, 236, 1);
+      padding-right: 15rem;
+      font-size: 3rem;
+      padding-top: .2rem; }
+  .award p {
+    font-size: 1.3rem;
+    padding: 40px 70px;
+    text-align: center; }
+  .img-showcase {
+    background-color: #fff; }
+    .img-showcase .showcase-wrapper {
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: row; }
+      .img-showcase .showcase-wrapper div {
+        margin: 4rem .2rem; }
+    .img-showcase .img1 {
+      background-size: contain;
+      height: 30vh;
+      width: 20%; }
+      .img-showcase .img1 a {
+        display: block;
+        height: 25vh;
+        background-color: rgba(255, 255, 255, 0.3);
+        text-decoration: none;
+        z-index: 999999;
+        color: #070f12;
+        font-size: .9rem;
+        padding-top: 4rem;
+        text-align: center; }
+    .img-showcase .img2,
+    .img-showcase .img3 {
+      height: 30vh;
+      width: 20%; }
+      .img-showcase .img2 a,
+      .img-showcase .img3 a {
+        display: block;
+        height: 25vh;
+        background-color: rgba(255, 255, 255, 0.3);
+        text-decoration: none;
+        z-index: 999999;
+        color: #070f12;
+        font-size: .9rem;
+        padding-top: 4rem;
+        text-align: center; }
+  .about-wrapper h1 {
+    padding-left: 6.2rem;
+    padding-bottom: 2rem; }
+  .about-wrapper p {
+    font-size: 1rem;
+    padding-left: 6.2rem;
+    padding-right: 6rem; } }
+
+@media only screen and (min-width: 920px) {
+  header p {
+    color: RGBA(236, 236, 236, 1);
+    padding-right: 22rem;
+    font-size: 3rem;
+    padding-top: .5rem; }
+  .carousel-wrapper {
+    background: url("../img/sleeping_black_baby-732x549-thumbnail.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%; }
+  .img-showcase div {
+    margin: 4rem 6rem; }
+  .about-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: RGBA(236, 236, 236, 1); }
+    .about-wrapper .style920 {
+      float: left;
+      background-image: url("../img/325466_1100-800x825.jpg");
+      background-size: cover;
+      height: 50vh;
+      width: 60%;
+      padding-left: 16rem;
+      margin-top: 20rem;
+      background-repeat: no-repeat;
+      margin-bottom: 1rem;
+      margin-left: 6rem; }
+    .about-wrapper .style920-text {
+      display: block;
+      float: right; }
+      .about-wrapper .style920-text h1 {
+        padding: 3rem 2rem 2rem 6.2rem; }
+      .about-wrapper .style920-text p {
+        font-size: .8rem;
+        padding-left: 6.2rem;
+        padding-right: 6rem;
+        padding-bottom: 2rem; } }
