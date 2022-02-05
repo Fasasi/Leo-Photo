@@ -161,7 +161,7 @@ header {
     text-align: center;
     line-height: 2.5; }
   .contact-us .company-name {
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 0.6vh; }
 
@@ -227,13 +227,19 @@ footer {
         font-size: .9rem;
         padding-top: 4rem;
         text-align: center; }
+  .about-wrapper .ceo-img {
+    background-size: cover;
+    width: 70%;
+    height: 50vh;
+    margin-left: 5rem; }
   .about-wrapper h1 {
-    padding-left: 6.2rem;
+    padding-left: 3.7rem;
     padding-bottom: 2rem; }
   .about-wrapper p {
     font-size: 1rem;
-    padding-left: 6.2rem;
-    padding-right: 6rem; } }
+    text-align: left;
+    padding-left: 3.7rem;
+    padding-right: 10rem; } }
 
 @media only screen and (min-width: 920px) {
   header p {
