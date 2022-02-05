@@ -140,11 +140,13 @@ header {
       padding-bottom: 1.5rem;
       line-height: 1.5; }
     .about .style920-text p {
+      font-size: 0.7rem;
       padding-right: 1rem;
       padding-bottom: 2rem; }
 
 .contact-us {
-  background-color: #fff; }
+  background-color: #fff;
+  font-size: 0.7rem; }
   .contact-us .contact-us-wrapper {
     padding: 5rem; }
   .contact-us .social-media {
@@ -161,7 +163,6 @@ header {
     text-align: center;
     line-height: 2.5; }
   .contact-us .company-name {
-    font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 0.6vh; }
 
@@ -170,7 +171,8 @@ footer {
   height: 7vh; }
   footer .footer-wrapper {
     text-align: center;
-    padding-top: 10px; }
+    padding-top: 10px;
+    font-size: 00.7rem; }
 
 @media only screen and (min-width: 680px) {
   .carousel-wrapper {
