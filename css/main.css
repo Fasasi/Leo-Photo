@@ -4,7 +4,7 @@
   background-color: rgba(255, 255, 255, 0.3);
   text-decoration: none;
   z-index: 999999;
-  height: 95vh;
+  height: 75vh;
   margin: 20px 20px;
   color: #143d43;
   font-size: 1.5rem;
@@ -103,22 +103,45 @@ header {
   background-image: url("../img/Alex-Claudia-BellaNaija-Weddings.50.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 80vh;
   transition: all 1s ease-in; }
 
 .img-showcase .img2 {
   background-image: url("../img/father-22194__480.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 80vh;
   transition: all 1s ease-in; }
 
 .img-showcase .img3 {
   background-image: url("../img/MtFuji-GettyImages-959111140.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 80vh;
   transition: all 1s ease-in-out; }
+
+.about {
+  background-color: RGBA(236, 236, 236, 1);
+  padding-top: 2rem; }
+  .about .ceo-img {
+    background-image: url("../img/325466_1100-800x825.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 3rem; }
+  .about .style920-text {
+    padding-left: 1.5rem;
+    text-align: left;
+    color: RGBA(84, 84, 84, 1); }
+    .about .style920-text h1 {
+      padding-right: 10rem;
+      padding-bottom: 1.5rem;
+      line-height: 1.5; }
+    .about .style920-text p {
+      padding-right: 1rem;
+      padding-bottom: 2rem; }
 
 .contact-us {
   background-color: #fff; }
